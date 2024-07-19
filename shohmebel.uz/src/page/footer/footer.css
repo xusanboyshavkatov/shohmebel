@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --asosiy-rang-asosiy-matnlarga: #FFFFFF;
+    --asosiy-rang-matnlarga: #a7a7a7;
+    --asosiy-rang-matnlarga: #D9AD5C;
+    --asosiy-rang-orqafonlarga: #171719;
+    --asosiy-rang-hover-active: #D9AD5C;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer_menu{
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_menu img{
+    width: 220px;
+}
+.footer_menu ul{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.footer_menu a{
+    text-decoration: none;
+    color: var(--asosiy-rang-asosiy-matnlarga);
+    font-size: 20   px;
+    /* transition: all 1s ease; */
+    transition: text-decoration-color 300ms;
+    transition: all 0.5s ease;
+
+}
+
+.footer_menu a:hover{
+    text-decoration: overline;
+    text-decoration-color: var(--asosiy-rang-hover-active);
+    color: var(--asosiy-rang-hover-active);
+}
