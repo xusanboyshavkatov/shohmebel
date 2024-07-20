@@ -24,6 +24,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 .footer_menu img{
     width: 220px;
@@ -38,12 +39,14 @@
     text-decoration: none;
     color: var(--asosiy-rang-asosiy-matnlarga);
     font-size: 20   px;
-    /* transition: all 1s ease; */
+   font-weight: bold;
     transition: text-decoration-color 300ms;
     transition: all 0.5s ease;
 
 }
-
+.hamburgermenu{
+    display: none;
+}
 .footer_menu a:hover{
     text-decoration: overline;
     text-decoration-color: var(--asosiy-rang-hover-active);

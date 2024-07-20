@@ -1,11 +1,13 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
+import Menubar from '../Menubar/Menubar'
 import logo from '../../img/logo.png'
 import './footer.css'
+import './footer_responsive.css'
 
 
 
-const Footer = () => {
+const Footer = ({show}) => {
     return (
         <div className='footer_menu'>
             <a href=""><img src={logo} /></a>
@@ -17,6 +19,7 @@ const Footer = () => {
                 <li><a href="">Kontakt</a></li>
             </ul>
             <a className='vakansiya' href="">Vakansiya </a>
+            <button className='hamburgermenu' onClick={show}><i className="fa-solid fa-bars"></i></button>
         </div>
     )
 }
