@@ -4,6 +4,7 @@ import Menubar from '../Menubar/Menubar'
 import './home.css'
 import './home_responsive.css'
 import banner from '../../img/banner-backgroundimage.jpg'
+import Services from '../services/Services'
 
 
 const Home = () => {
@@ -21,10 +22,10 @@ const Home = () => {
             {
             isOpen ? <Menubar show={show}></Menubar> : ""
             }
-            <footer className='footer'>
+            <header className='footer'>
                 <Footer show={show} ></Footer>
-            </footer>
-            <header className='header'>
+            </header>
+            <headers className='header'>
                 <div className="header_social_media_link">
                     <hr />
                     <a href=""><i className="fa-brands fa-telegram"></i></a>
@@ -40,7 +41,13 @@ const Home = () => {
                     <a href="">Portfoliomiz <i className="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <img className="header_img" src={banner} />
-            </header>
+            </headers>
+            <section>
+                <Services />
+            </section>
+            <footer>
+
+            </footer>
         </div>
     )
 }
