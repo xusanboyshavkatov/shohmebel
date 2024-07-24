@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
-import Footer from '../footer/Footer'
 import Menubar from '../Menubar/Menubar'
 import './home.css'
 import './home_responsive.css'
 import banner from '../../img/banner-backgroundimage.jpg'
 import Services from '../services/Services'
-
+import About from '../About/About'
+import Header from '../header/Header'
+import Portfolio from '../portfolio/Portfolio'
 
 const Home = () => {
 
@@ -23,7 +24,7 @@ const Home = () => {
             isOpen ? <Menubar show={show}></Menubar> : ""
             }
             <header className='footer'>
-                <Footer show={show} ></Footer>
+                <Header show={show} />
             </header>
             <headers className='header'>
                 <div className="header_social_media_link">
@@ -43,7 +44,9 @@ const Home = () => {
                 <img className="header_img" src={banner} />
             </headers>
             <section>
-                <Services />
+                <Services className='Services' />
+                <About />
+                <Portfolio />
             </section>
             <footer>
 

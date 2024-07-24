@@ -1,11 +1,11 @@
 import React from 'react'
 import logo from '../../img/logo.png'
-import './footer.css'
-import './footer_responsive.css'
+import './header.css'
+import './header_responsive.css'
 
 
 
-const Footer = ({show}) => {
+const Header = ({show}) => {
     return (
         <div className='footer_menu'>
             <a href=""><img src={logo} /></a>
@@ -22,4 +22,4 @@ const Footer = ({show}) => {
     )
 }
 
-export default Footer
+export default Header
