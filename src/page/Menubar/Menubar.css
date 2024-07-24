@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --asosiy-rang-asosiy-matnlarga: #FFFFFF;
+    --asosiy-rang-matnlarga: #a7a7a7;
+    --asosiy-rang-orqafonlarga: #171719;
+    --asosiy-rang-hover-active: #D9AD5C;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Syne', sans-serif;
+}
+
+.Menubar{
+    display: none;
+}
+
+@media screen and (max-width: 769px) {
+
+.Menubar{
+    width: 40%;
+    height: 100vh;
+    background-color: var(--asosiy-rang-hover-active);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    right: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    z-index: 10;
+}
+.Menubar_close{
+    background-color: rgba(245, 222, 179, 0);
+    border: none;
+}
+.Menubar_close .fa-solid{
+    font-size: 24px;
+    color: var(--asosiy-rang-asosiy-matnlarga);
+}
+
+.menubar_social a{
+    color: var(--asosiy-rang-asosiy-matnlarga);
+    margin-right: 20px;
+    font-size: 18px;
+}
+.Menubar ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 5px;
+}
+.Menubar ul li{
+    width: 100%;
+    border-bottom: 2px solid var(--asosiy-rang-asosiy-matnlarga);    margin-bottom: 5px;
+}
+
+.Menubar ul li a{
+
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+}
+@media screen and (max-width: 426px) {
+
+.Menubar{
+    width: 60%;
+    height: 600px;
+}
+
+.Menubar_close .fa-solid{
+    font-size: 34px;
+}
+
+.menubar_social a{
+    margin-right: 40px;
+    font-size: 58px;
+}
+
+
+
+.Menubar ul li a{
+
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+}

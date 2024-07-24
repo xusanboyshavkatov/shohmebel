@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --asosiy-rang-asosiy-matnlarga: #FFFFFF;
+    --asosiy-rang-matnlarga: #a7a7a7;
+    --asosiy-rang-orqafonlarga: #171719;
+    --asosiy-rang-hover-active: #D9AD5C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Syne', sans-serif;
+}
+
+.About {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: url('../../img/banner-background.jpg'), no-repeat, center center / cover;
+    padding: 80px 0;
+}
+
+.About_content {
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 30px 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.About_content img {
+    width: 400px;
+}
+
+
+.About_content_text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+
+.About_content_text h2 {
+    margin-top: -50px;
+    font-size: 18px;
+    color: var(--asosiy-rang-hover-active);
+}
+
+.About_content_text h1 {
+    font-size: 38px;
+    color: var(--asosiy-rang-asosiy-matnlarga);
+}
+
+.About_content_text p {
+    font-size: 20px;
+    color: #a7a7a7;
+    border-left: 2px solid var(--asosiy-rang-hover-active);
+    padding-left: 18px;
+}
+
+.About_content_text span {
+    font-size: 20px;
+    color: #a7a7a7;
+}
+
+
+/* responsive qismi */
+
+@media screen and (max-width: 769px) {
+    .About_content {
+        width: 768px;
+        gap: 20px;
+        align-items: center;
+    }
+    .About_content img{
+        max-width:50%;
+    }
+    
+    .About_content_img2 {
+        display: none;
+    }
+    .About_content_text h2 {
+        font-size: 16px;
+        margin-top: 0;
+    }
+    
+    .About_content_text h1 {
+        font-size: 24px;
+    }
+    
+    .About_content_text p {
+        font-size: 16px;
+        padding-left: 12px;
+    }
+    
+    .About_content_text span {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 426px){
+    .About{
+        max-width: 100%;
+    }
+    .About_content {
+        max-width: 100%;
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 30px;
+    }
+    .About_content .About_content_img1{
+        width: 400px;
+    }
+    .About_content_text h2 {
+        font-size: 28px;
+        margin-top: 0;
+    }
+    
+    .About_content_text h1 {
+        font-size: 46px;
+    }
+    
+    .About_content_text p {
+        font-size: 26px;
+        padding-left: 12px;
+    }
+    
+    .About_content_text span {
+        font-size: 26px;
+    }
+}
