@@ -1,6 +1,8 @@
 import React from 'react'
 import './Menubar.css'
-const Menubar = ({show}) => {
+import { Link } from 'react-scroll';
+
+const Menubar = ({ show }) => {
     return (
         <div className='Menubar'>
             <button className='Menubar_close'><i className="fa-solid fa-xmark" onClick={show}></i></button>
@@ -11,12 +13,11 @@ const Menubar = ({show}) => {
                 <a href=""><i className="fa-brands fa-youtube"></i></a>
             </div>
             <ul>
-                <li><a href="">Bosh sahifa</a></li>
-                <li><a href="">Haqimizda</a></li>
-                <li><a href="">Xizmatlarimiz</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Kontakt</a></li>
-                <li><a href="">Vakansiya</a></li>
+                <li><Link to="/" className='Link' smooth={true} duration={50}>Bosh sahifa</Link></li>
+                <li><Link to="xizmatlar" className='Link' smooth={true} duration={50}>Xizmatlarimiz</Link></li>
+                <li><Link to="haqimizda" className='Link' smooth={true} duration={50}>Haqimizda</Link></li>
+                <li><Link to="portfolio" className='Link' smooth={true} duration={50}>Portfolio</Link></li>
+                <li><Link to="kontakt" className='Link' smooth={true} duration={50}>Kontakt</Link></li>
             </ul>
         </div>
     )

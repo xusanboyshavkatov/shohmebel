@@ -7,6 +7,10 @@ import Services from '../services/Services'
 import About from '../About/About'
 import Header from '../header/Header'
 import Portfolio from '../portfolio/Portfolio'
+import Contact from '../contact/Contact'
+import Footer from '../footer/Footer'
+
+import { Element } from 'react-scroll';
 
 const Home = () => {
 
@@ -26,6 +30,7 @@ const Home = () => {
             <header className='footer'>
                 <Header show={show} />
             </header>
+            <Element name='/'>
             <headers className='header'>
                 <div className="header_social_media_link">
                     <hr />
@@ -43,14 +48,27 @@ const Home = () => {
                 </div>
                 <img className="header_img" src={banner} />
             </headers>
+            </Element>
+
             <section>
-                <Services className='Services' />
+                <Element name='xizmatlar'>
+                <Services />
+                </Element>
+                <Element name='haqimizda'>
                 <About />
+                </Element>
+                <Element name=''>
                 <Portfolio />
+                </Element>
+                <Element name='kontakt'>
+
+                <Contact />
+                </Element>
             </section>
             <footer>
-
+                <Footer />
             </footer>
+  
         </div>
     )
 }

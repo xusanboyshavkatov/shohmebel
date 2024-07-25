@@ -97,3 +97,13 @@
     text-decoration: none;
 }
 }
+
+.Link{
+    text-decoration: none;
+    color: var(--asosiy-rang-asosiy-matnlarga);
+    font-size: 20   px;
+   font-weight: bold;
+    transition: text-decoration-color 300ms;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
