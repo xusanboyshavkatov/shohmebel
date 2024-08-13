@@ -30,46 +30,75 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
+    gap: 50px;
+}
+.footer_content_logo_inf{
+    width: 33%;
+    color: var(--asosiy-rang-asosiy-matnlarga);
 }
 .footer_content_logo_inf img{
-    width: 250px;
+    width: 200px;
 }
 
+.footer_content_logo_inf h1{
+    font-size:32px;
+}
+
+.footer_content_menu_link{
+    width: 33%;
+}
 .footer_content_menu_link h1{
-    font-size: 24px;
+    font-size: 34px;
     color: var(--asosiy-rang-asosiy-matnlarga);
-    border-left: 2px solid var(--asosiy-rang-hover-active);
-    padding-left: 10px;
 }
 .footer_content_menu_link ul {
     padding: 0;
     font-size: 16px;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .footer_content_menu_link ul li a{
-    color: var(--asosiy-rang-hover-active);
+    color: var(--asosiy-rang-asosiy-matnlarga);
     text-decoration: none;
 }
 
+.footer_content_contact_inf{
+    width: 33%;
+}
 
 .footer_content_contact_inf h1{
-    font-size: 24px;
+    font-size: 34px;
     color: var(--asosiy-rang-asosiy-matnlarga);
-    border-left: 2px solid var(--asosiy-rang-hover-active);
-    padding-left: 10px;
 }
 .footer_content_contact_inf ul {
     padding: 0;
     font-size: 16px;
     margin-top: 10px;   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.footer_content_contact_inf ul li a{
+
+.footer_content_contact_inf ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer_content_contact_inf ul li i{
+    font-size: 35px;
     color: var(--asosiy-rang-hover-active);
+}
+
+.footer_content_contact_inf ul li a{
+    color: var(--asosiy-rang-asosiy-matnlarga);
     text-decoration: none;
 }
 @media screen and (max-width: 769px){
     .footer_content{
         width: 768px;
+        gap: 20px;
     }
     .footer_content_logo_inf img{
         width: 200px;
@@ -116,6 +145,10 @@
     .footer_content_contact_inf ul li a{
         color: var(--asosiy-rang-hover-active);
         text-decoration: none;
+    }
+    .footer_content_contact_inf ul li a{
+        font-size: 20px;
+        color: var(--asosiy-rang-asosiy-matnlarga);
     }
 
 }
