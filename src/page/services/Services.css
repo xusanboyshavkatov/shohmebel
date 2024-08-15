@@ -114,6 +114,10 @@
 }
 
 @media screen and (max-width: 769px) {
+    .Services{
+        max-width: 765px;
+        width: 100%;
+    }
     .services_content{
         width: 769px;
     }
@@ -133,14 +137,18 @@
     }
 }
 @media screen and (max-width: 426px){
-    
+    .Services{
+        max-width: 425px;
+        width: 100%;
+    }
     .services_content{
         width: 100%;
         padding: 0 30px;
     }
     .services_content_text h1{
         width: 100%;
-        font-size: 48px;
+        font-size: 28px;
+        line-height:38px;
     }
     .services_content_services_box{
         max-width: 80%;

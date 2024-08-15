@@ -1,13 +1,14 @@
 import React from 'react'
 import "./footer.css"
 import { Link } from 'react-scroll';
+import Logo from '../../img/logo.png'
 
 const Footer = () => {
     return (
         <div className='footer'>
             <div className="footer_content">
                 <div className="footer_content_logo_inf">
-                    <img src=".././src/img/logo.png" alt="" />
+                    <img src={Logo} alt="" />
                     <h1>Sifat, dizayn va qulaylikning
                         ideal uyg'unligi</h1>
                 </div>
