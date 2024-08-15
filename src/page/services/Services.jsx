@@ -12,42 +12,42 @@ const Services = () => {
                 </div>
                 <div className="services_content_services">
                     <div className="services_content_services_box">
-                        <img src=".././src/img/blog-image1.jpg" />
+                        <img src="../../img/blog-image1.jpg" />
                         <div className="services_content_services_box_text">
                             <h1>Lorem ipsum dolor sit amet.</h1>
                             <button>Read more</button>
                         </div>
                     </div>
                     <div className="services_content_services_box">
-                        <img src=".././src/img/blog-image1.jpg" />
+                        <img src="../../img/blog-image1.jpg" />
                         <div className="services_content_services_box_text">
                             <h1>Lorem ipsum dolor sit amet.</h1>
                             <button>Read more</button>
                         </div>
                     </div>
                     <div className="services_content_services_box">
-                        <img src=".././src/img/blog-image1.jpg" />
+                        <img src="../../img/blog-image1.jpg" />
                         <div className="services_content_services_box_text">
                             <h1>Lorem ipsum dolor sit amet.</h1>
                             <button>Read more</button>
                         </div>
                     </div>
                     <div className="services_content_services_box">
-                        <img src=".././src/img/blog-image1.jpg" />
+                        <img src="../../img/blog-image1.jpg" />
                         <div className="services_content_services_box_text">
                             <h1>Lorem ipsum dolor sit amet.</h1>
                             <button>Read more</button>
                         </div>
                     </div>
                     <div className="services_content_services_box">
-                        <img src=".././src/img/blog-image1.jpg" />
+                        <img src="../../img/blog-image1.jpg" />
                         <div className="services_content_services_box_text">
                             <h1>Lorem ipsum dolor sit amet.</h1>
                             <button>Read more</button>
                         </div>
                     </div>
                     <div className="services_content_services_box">
-                        <img src=".././src/img/blog-image1.jpg" />
+                        <img src="../../img/blog-image1.jpg" />
                         <div className="services_content_services_box_text">
                             <h1>Lorem ipsum dolor sit amet.</h1>
                             <button>Read more</button>
