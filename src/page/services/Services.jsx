@@ -1,5 +1,6 @@
 import React from 'react'
 import './Services.css'
+import blogImage1 from '../../img/blog-image1.jpg';
 
 
 const Services = () => {
@@ -12,42 +13,42 @@ const Services = () => {
                 </div>
                 <div className="services_content_services">
                     <div className="services_content_services_box">
-                        <img src="../../img/blog-image1.jpg" />
+                        <img src={blogImage1} />
                         <div className="services_content_services_box_text">
                             <h1>Lorem ipsum dolor sit amet.</h1>
                             <button>Read more</button>
                         </div>
                     </div>
                     <div className="services_content_services_box">
-                        <img src="../../img/blog-image1.jpg" />
+                        <img src={blogImage1} />
                         <div className="services_content_services_box_text">
                             <h1>Lorem ipsum dolor sit amet.</h1>
                             <button>Read more</button>
                         </div>
                     </div>
                     <div className="services_content_services_box">
-                        <img src="../../img/blog-image1.jpg" />
+                        <img src={blogImage1} />
                         <div className="services_content_services_box_text">
                             <h1>Lorem ipsum dolor sit amet.</h1>
                             <button>Read more</button>
                         </div>
                     </div>
                     <div className="services_content_services_box">
-                        <img src="../../img/blog-image1.jpg" />
+                        <img src={blogImage1}/>
                         <div className="services_content_services_box_text">
                             <h1>Lorem ipsum dolor sit amet.</h1>
                             <button>Read more</button>
                         </div>
                     </div>
                     <div className="services_content_services_box">
-                        <img src="../../img/blog-image1.jpg" />
+                        <img src={blogImage1} />
                         <div className="services_content_services_box_text">
                             <h1>Lorem ipsum dolor sit amet.</h1>
                             <button>Read more</button>
                         </div>
                     </div>
                     <div className="services_content_services_box">
-                        <img src="../../img/blog-image1.jpg" />
+                        <img src={blogImage1} />
                         <div className="services_content_services_box_text">
                             <h1>Lorem ipsum dolor sit amet.</h1>
                             <button>Read more</button>
