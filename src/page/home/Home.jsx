@@ -23,7 +23,7 @@ const Home = () => {
 
 
     return (
-        <div className='wrap'>
+        <div className='wrap' onClick={show}>
             {
             isOpen ? <Menubar show={show}></Menubar> : ""
             }

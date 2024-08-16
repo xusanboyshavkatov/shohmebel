@@ -21,11 +21,9 @@
 @media screen and (max-width: 769px) {
 
 .Menubar{
-    width: 40%;
-    height: 100vh;
-    background-color: var(--asosiy-rang-hover-active);
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    width: 100%;
+    height: auto;
+    background-color: var(--asosiy-rang-asosiy-matnlarga);
     position: absolute;
     right: 0;
     padding: 20px;
@@ -59,7 +57,6 @@
 }
 .Menubar ul li{
     width: 100%;
-    border-bottom: 2px solid var(--asosiy-rang-asosiy-matnlarga);    margin-bottom: 5px;
 }
 
 .Menubar ul li a{
@@ -74,26 +71,35 @@
 @media screen and (max-width: 426px) {
 
 .Menubar{
-    width: 60%;
-    height: 600px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    filter: blur(80%);
+    background-color: rgb(255, 255, 255);
 }
 
 .Menubar_close .fa-solid{
     font-size: 34px;
+    color: black;
 }
 
 .menubar_social a{
-    margin-right: 40px;
-    font-size: 58px;
+    margin-right: 20px;
+    font-size: 25px;
+    color: var(--asosiy-rang-hover-active);
 }
 
 
-
+.Menubar ul{
+    padding: 0;
+}
 .Menubar ul li a{
 
-    font-size: 34px;
+    font-size: 24px;
     font-weight: bold;
-    color: white;
+    color: var(--asosiy-rang-orqafonlarga);
     text-decoration: none;
 }
 }
