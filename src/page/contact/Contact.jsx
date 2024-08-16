@@ -1,11 +1,12 @@
 import React from 'react'
 import "./contact.css"
+import Contactimg from '../../img/contact-image.jpg'
 const Contact = () => {
   return (
     <div className='contact'>
         <div className="contact_content">
             <div className="contact_content_form">
-                <img src=".././src/img/contact-image.jpg" alt="" />
+                <img src={Contactimg} alt="" />
                 <div className="contact_content_form_message">
                     <h2>Bog'lanishimiz uchun</h2>
                     <h1>Bizga xabar yuboring</h1>
